@@ -15,12 +15,14 @@
   --base-color:  hsla(270, 50%, 73%, 1);
 }
 
-
 body {
   text-align: center;
   font-family: 'Poppins', sans-serif;
 
   background: var(--bg-color);
+  height: 100vh;
+
+  overflow: hidden;
 }
 
 ul {
@@ -44,9 +46,11 @@ header {
 }
 
 .image {
-  width: 40%;
+  width: 20rem;
   border-radius: 10rem;
   border: 0.45rem solid var(--base-color);
+
+  cursor: pointer;
 
   transition: border ease-in-out .5s;
 } 
@@ -100,10 +104,14 @@ header a {
   background: var(--base-color);
 }
 
-/*====================Social===================*/
+/*====================Footer===================*/
 
 footer ul {
   display: flex;
   justify-content: center;
   gap: 3rem;
+}
+
+footer ul li a {
+  
 }
